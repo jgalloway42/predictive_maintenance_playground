@@ -12,7 +12,7 @@ The sensor data was cleaned and converted to discrete alarms which assert when t
 ## Model Derivation
 Four models were optimized via grid search and 5-fold cross-validation: Logistic Regession, Random Forest, XGBoost, Gradient Boosted Classifier and scored area under the reciever operator curve.  The results were as follows:
 
-| Model | Optimized Parameters | f1-score|
+| Model | Optimized Parameters | AUC|
 |-------|----------------------|---------|
 | Logistic Regression | C: 0.001, penalty: L2 | 0.945 |
 | Random Forest | max_depth: 32, n_estimators: 16 | 0.999 |
